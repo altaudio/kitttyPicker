@@ -1,0 +1,26 @@
+<!--Build a website with a button 'Find me a cat button' that picks a random cat and displays their name and picture every time you click the button. (Please source your cats responsibily / ethically) -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Kitty Picker</title>
+  <!--Link CSS-->
+  <link href="kittyPicker.css" type="text/css" rel="stylesheet" />
+  <!--Link Lodash-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+  <!--Link jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--Link JavaScript-->
+  <script src="kittyPicker.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav">
+      <h1 class="main-heading">Kitty Picker</h1>
+    </div>
+    <h2 class="sub-heading">Click the button to find a kitty</h2>
+    <h3 id="kitty-name">Sombrero Kitty</h3>
+    <img id="kitty-pic" src="http://www.warrenphotographic.co.uk/photography/bigs/19634-Ginger-Maine-Coon-kitten-with-sombrero-hat-on-white-background.jpg" width=auto height=200px>
+    <p id="bio">Sombrero Kitty likes to party all the time</p>
+    <button id="new-kitty">Find Me A Cat</button>
+  </body>
+</html>
